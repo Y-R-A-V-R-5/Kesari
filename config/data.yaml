@@ -1,0 +1,17 @@
+# Kesari/config/dataset_config.yaml
+
+# Paths are relative to the project root (Kesari/) where training commands are run.
+
+Raw images: ../data_raw/images
+Raw lables: ../data_raw/lables
+
+
+train: ../dataset/train/images
+val: ../dataset/valid/images   
+test: ../dataset/test/images 
+
+# Number of classes
+nc: 17
+
+# Class names
+names: ['tree 1-2', 'tree 10-11', 'tree 11-12', 'tree 12-13', 'tree 13-14', 'tree 14-15', 'tree 15-16', 'tree 16-17', 'tree 17-18', 'tree 18-19', 'tree 2-3', 'tree 3-4', 'tree 4-5', 'tree 5-6', 'tree 6-7', 'tree 7-8', 'tree 9-10']

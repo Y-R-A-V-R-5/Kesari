@@ -1,0 +1,10 @@
+numpy==1.23.5
+opencv-python==4.7.0.72
+torch==2.0.1
+torchvision==0.15.2
+ultralytics==8.0.150 # Or whatever YOLOv8 version you use
+matplotlib==3.7.1
+pandas==2.0.3
+seaborn==0.12.2
+jupyterlab
+# Add other packages you use
